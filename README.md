@@ -35,8 +35,16 @@ This is a **sliding puzzle system** made in Godot 4.x, inspired by classic puzzl
 ## Credits
 
 Made with ❤️ using [Godot Engine 4.x](https://godotengine.org/).  
-Original idea and code by [Gerardo M.].
+Original idea and code by Gerardo M.
 
 ---
 
+## 🌐 Other languages
+
+- 🇪🇸 [Spanish Version](README_ES.md)
+- 🇫🇷 [French Version](README_FR.md)
+- 🇯🇵 [Japanese Version](README_JP.md)
+- 🖖 [Klingon Version](README_KLINGON.md)
+
 📌 Contributions and feedback are welcome!
+
