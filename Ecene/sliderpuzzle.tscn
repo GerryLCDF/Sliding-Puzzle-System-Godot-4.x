@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://ge2p6qack073"]
+
+[ext_resource type="Script" uid="uid://7v805trik652" path="res://Script/slidepuzzle.gd" id="1_v60fk"]
+[ext_resource type="Texture2D" uid="uid://dj2aew5jclr8k" path="res://img/Scan30062025165531 _001.jpg" id="2_rqiqu"]
+[ext_resource type="FontFile" uid="uid://dxxyq31r4wymy" path="res://Other/FuenteTexto.otf" id="4_cmhbw"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_v60fk")
+image = ExtResource("2_rqiqu")
+rows = 4
+scale_factor = 0.15
+border_color = Color(0.498039, 0.294118, 0.321569, 1)
+border_width = 30.0
+piece_bg_color = Color(0.760784, 0.498039, 0.521569, 1)
+scene_bg_color = Color(0.380392, 0.658824, 0.443137, 1)
+
+[node name="punto" type="Node2D" parent="."]
+position = Vector2(128, 64)
+
+[node name="Ganaste" type="Label" parent="."]
+offset_left = 600.0
+offset_top = 208.0
+offset_right = 1144.0
+offset_bottom = 387.0
+theme_override_colors/font_color = Color(1, 0.956863, 0, 1)
+theme_override_fonts/font = ExtResource("4_cmhbw")
+theme_override_font_sizes/font_size = 145
+text = "Ganaste"
